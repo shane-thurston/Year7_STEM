@@ -1,11 +1,11 @@
 import turtle
-b = turtle.Turtle()
-b.color('red')
-b.fillcolor('red')
-b.begin_fill()
+Pat = turtle.Turtle()
+Pat.color('red')
+Pat.fillcolor('red')
+Pat.begin_fill()
 
 for i in range(5):
-  b.forward(150)
-  b.right(144)
+  Pat.forward(150)
+  Pat.right(144)
 
-b.end_fill()
+Pat.end_fill()
